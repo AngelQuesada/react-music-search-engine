@@ -1,0 +1,29 @@
+.App {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  height: auto;
+}
+
+/* NAVBAR */
+
+.navbar form {
+  width: 60%;
+}
+
+.navbar .navbar-brand img {
+  width: 40px;
+}
+
+/* MUSIC CONTAINER */
+
+/* LOADER */
+
+.loader {
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: #4f749193;
+}
